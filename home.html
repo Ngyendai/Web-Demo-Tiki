@@ -2,17 +2,1254 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
     <title>Document</title>
 </head>
 
 <body>
-    Web Demo Tiki
+    <div class="wrapper">
+        <header>
+            <div class="header">
+                <div class="header_logo">
+                    <a href="">
+                        <img src="assets/image/logo.png" alt="" width="58" /><br>
+                        <img src="assets/image/logotext.png" alt="" width="130" />
+                    </a>
+                </div>
+                <div class="header_search">
+                    <div class="header_search-box">
+                        <div class="header_search-input">
+                            <input type="text" placeholder="Tìm sản phẩm, danh mục hay thương hiệu mong muốn" />
+                            <div class="header_search-icon">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <p>Tìm kiếm</p>
+                            </div>
+                        </div>
+                        <div class="header_search-text">
+                            <ul>
+                                <li><a href="">trái cây</a></li>
+                                <li><a href="">thịt, trứng</a></li>
+                                <li><a href="">rau củ quả</a></li>
+                                <li><a href="">sữa, bơ, phô mai</a></li>
+                                <li><a href="">hải sản</a></li>
+                                <li><a href="">gạo, mì ăn liền</a></li>
+                                <li><a href="">đô uống, bia rượu</a></li>
+                                <li><a href="">bánh kẹo</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="header_info d_flex">
+                        <div class="header_info-login d_flex">
+                            <div class="info_login-icon">
+                                <i class="fa-solid fa-user-large"></i>
+                            </div>
+                            <div class="info_login-text">
+                                Đăng nhập / Đăng ký<br />Tài khoản
+                            </div>
+                        </div>
+                        <div class="header_info-cart">
+
+                            <span class="count">0</span>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Gio hàng</p>
+
+                        </div>
+                        <div class="info_cart-text">
+                            <i class="fa-solid fa-store"></i>
+                            <p>
+                                Bán hàng cùng Tiki
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+        <nav>
+            <div class="nav_bar">
+                <ul class="d_flex">
+                    <li>
+                        <a href="#">Thịt, Rau Củ</a>
+                    </li>
+                    <li>
+                        <a href="#">Bách Hóa</a>
+                    </li>
+                    <li>
+                        <a href="#">Nhà Cửa</a>
+                    </li>
+                    <li>
+                        <a href="#">Điện Tử</a>
+                    </li>
+                    <li>
+                        <a href="#">Thiết Bị Số</a>
+                    </li>
+                    <li>
+                        <a href="#">Điện Thoại</a>
+                    </li>
+                    <li>
+                        <a href="#">Me & Bé</a>
+                    </li>
+                    <li>
+                        <a href="#">Làm Đẹp</a>
+                    </li>
+                    <li>
+                        <a href="#">Gia Dụng</a>
+                    </li>
+                    <li>
+                        <a href="#">Thời Trang Nữ</a>
+                    </li>
+                    <li>
+                        <a href="#">Thời Trang Nam</a>
+                    </li>
+                    <li>
+                        <a href="#">Giay Nữ</a>
+                    </li>
+                    <li>
+                        <a href="#">Túi Nữ</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="wrapper_content">
+<div class="wrapper_margin">
+    <div class="wrapper_slider">
+        <div class="wrapper_slider-img">
+            <img src="assets/image/banner/img1.webp" alt="" />
+        </div>
+        <div class="wrapper_slider-banner">
+            <img src="assets/image/banner/img1.webp" alt="" />
+        </div>
+    </div>
+    <div class="wrapper_flashSale">
+        <div class="wrapper_flashSale-product">
+            <div class="flashSale_product-title">
+                <h3>Gía Sốc Hôm Nay</h3>
+                <div class="flashSale_product-watch">
+                    <p>00</p>
+                    <strong>:</strong>
+                    <p>00</p>
+                    <strong>:</strong>
+                    <p>00</p>
+                    <strong>:</strong>
+                </div>
+                <p><a href="" class="see_all">Xem thêm</a></p>
+            </div>
+            <div class="flashSale_product">
+                <div class="col-2">
+                    <div class="flashSale_product-item">
+                        <a href="#">
+                            <div class="flashSale_product_item-img">
+                                <img src="assets/image/product/img1.webp" alt="" />
+                            </div>
+                            <div class="flashSale_product_item-info">
+                                <div class="flashSale_product_item_info-price">
+                                    <p>269.000đ</p>
+                                    <span class="price_sale">-13%</span>
+                                </div>
+                                <div class="flashSale_product_item_info-selling">
+                                    <div class="selling_fill"></div>
+                                    <div class="selling_text">Vừa mở bán</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="flashSale_product-item">
+                        <a href="#">
+                            <div class="flashSale_product_item-img">
+                                <img src="assets/image/product/img1.webp" alt="" />
+                            </div>
+                            <div class="flashSale_product_item-info">
+                                <div class="flashSale_product_item_info-price">
+                                    <p>269.000đ</p>
+                                    <span class="price_sale">-13%</span>
+                                </div>
+                                <div class="flashSale_product_item_info-selling">
+                                    <div class="selling_fill"></div>
+                                    <div class="selling_text">Vừa mở bán</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="flashSale_product-item">
+                        <a href="#">
+                            <div class="flashSale_product_item-img">
+                                <img src="assets/image/product/img1.webp" alt="" />
+                            </div>
+                            <div class="flashSale_product_item-info">
+                                <div class="flashSale_product_item_info-price">
+                                    <p>269.000đ</p>
+                                    <span class="price_sale">-13%</span>
+                                </div>
+                                <div class="flashSale_product_item_info-selling">
+                                    <div class="selling_fill"></div>
+                                    <div class="selling_text">Vừa mở bán</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="flashSale_product-item">
+                        <a href="#">
+                            <div class="flashSale_product_item-img">
+                                <img src="assets/image/product/img1.webp" alt="" />
+                            </div>
+                            <div class="flashSale_product_item-info">
+                                <div class="flashSale_product_item_info-price">
+                                    <p>269.000đ</p>
+                                    <span class="price_sale">-13%</span>
+                                </div>
+                                <div class="flashSale_product_item_info-selling">
+                                    <div class="selling_fill"></div>
+                                    <div class="selling_text">Vừa mở bán</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="flashSale_product-item">
+                        <a href="#">
+                            <div class="flashSale_product_item-img">
+                                <img src="assets/image/product/img1.webp" alt="" />
+                            </div>
+                            <div class="flashSale_product_item-info">
+                                <div class="flashSale_product_item_info-price">
+                                    <p>269.000đ</p>
+                                    <span class="price_sale">-13%</span>
+                                </div>
+                                <div class="flashSale_product_item_info-selling">
+                                    <div class="selling_fill"></div>
+                                    <div class="selling_text">Vừa mở bán</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper_flashSale-slider">
+            <img src="assets/image/banner/img1.webp" alt="" />
+        </div>
+    </div>
+    <div class="wrapper_banner_one">
+        <div class="wrapper_banner_one-left">
+            <img src="assets/image/banner/img2.webp" alt="" />
+        </div>
+        <div class="wrapper_banner_one-center">
+            <img src="assets/image/banner/img3.webp" alt="" />
+        </div>
+        <div class="wrapper_banner_one-right">
+            <img src="assets/image/banner/img4.webp" alt="" />
+        </div>
+    </div>
+    <div class="wrapper_heading">
+        <ul class="wrapper_heading-item">
+            <li>
+                <a href="#">
+                    <div class="wrapper_heading_item-img">
+                        <img src="assets/image/heading/img1.webp" alt="" />
+                    </div>
+                    <div class="wrapper_heading_item-text">
+                        <p>Siêu hội Astra</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_heading_item-img">
+                        <img src="assets/image/heading/img2.webp" alt="" />
+                    </div>
+                    <div class="wrapper_heading_item-text">
+                        <p>Tiki Exchange</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_heading_item-img">
+                        <img src="assets/image/heading/img3.webp" alt="" />
+                    </div>
+                    <div class="wrapper_heading_item-text">
+                        <p>Thưởng thêm Astra</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_heading_item-img">
+                        <img src="assets/image/heading/img4.webp" alt="" />
+                    </div>
+                    <div class="wrapper_heading_item-text">
+                        <p>Đi chợ siêu tốc</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_heading_item-img">
+                        <img src="assets/image/heading/img5.webp" alt="" />
+                    </div>
+                    <div class="wrapper_heading_item-text">
+                        <p>Trúng Mercedes...</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_heading_item-img">
+                        <img src="assets/image/heading/img6.webp" alt="" />
+                    </div>
+                    <div class="wrapper_heading_item-text">
+                        <p>Đóng tiền, nạp thẻ</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_heading_item-img">
+                        <img src="assets/image/heading/img7.webp" alt="" />
+                    </div>
+                    <div class="wrapper_heading_item-text">
+                        <p>Mã giảm giá</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_heading_item-img">
+                        <img src="assets/image/heading/img8.webp" alt="" />
+                    </div>
+                    <div class="wrapper_heading_item-text">
+                        <p>Bảo hiểm Tiki360</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_heading_item-img">
+                        <img src="assets/image/heading/img9.webp" alt="" />
+                    </div>
+                    <div class="wrapper_heading_item-text">
+                        <p>Giam đến 50%</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_heading_item-img">
+                        <img src="assets/image/heading/img10.webp" alt="" />
+                    </div>
+                    <div class="wrapper_heading_item-text">
+                        <p>Hoàn tiền 15%</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_heading_item-img">
+                        <img src="assets/image/heading/img11.webp" alt="" />
+                    </div>
+                    <div class="wrapper_heading_item-text">
+                        <p>Ưu đãi thanh toán</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="wrapper_two">
+        <img src="assets/image/banner/img5.webp" alt="" />
+        <img src="assets/image/banner/img6.webp" alt="" />
+        <img src="assets/image/banner/img7.webp" alt="" />
+        <img src="assets/image/banner/img8.webp" alt="" />
+    </div>
+    <div class="wrapper_brand">
+        <div class="wrapper_brand-title">
+            <h3>Thương hiệu chính hãng</h3>
+            <p><a href="#" class="see_all">Xem thêm</a></p>
+        </div>
+        <div class="wrapper_brand-slider">
+            <img src="assets/image/banner/img1.webp" alt="" />
+        </div>
+        <div class="wrapper_brand-product">
+            <ul>
+                <li>
+                    <div class="col-">
+                        <a href="#">
+                            <img src="assets/image/brand/img1.webp" alt="" />
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="col-">
+                        <a href="#">
+                            <img src="assets/image/brand/img2.webp" alt="" />
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="col-">
+                        <a href="#">
+                            <img src="assets/image/brand/img3.webp" alt="" />
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="col-">
+                        <a href="#">
+                            <img src="assets/image/brand/img4.webp" alt="" />
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="col-">
+                        <a href="#">
+                            <img src="assets/image/brand/img5.webp" alt="" />
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="col-">
+                        <a href="#">
+                            <img src="assets/image/brand/img6.webp" alt="" />
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="wrapper_category">
+        <h3>Danh Mục Nổi Bật</h3>
+        <ul class="wrapper_category-item">
+            <li>
+                <a href="#">
+                    <div class="wrapper_category_item-img">
+                        <img src="assets/image/category/img1.webp" />
+                    </div>
+                    <div class="wrapper_category_item-text">
+                        <p>Ngon</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_category_item-img">
+                        <img src="assets/image/category/img2.webp" />
+                    </div>
+                    <div class="wrapper_category_item-text">
+                        <p>Giay thể thao nam</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_category_item-img">
+                        <img src="assets/image/category/img3.webp" />
+                    </div>
+                    <div class="wrapper_category_item-text">
+                        <p>Balo</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_category_item-img">
+                        <img src="assets/image/category/img4.webp" />
+                    </div>
+                    <div class="wrapper_category_item-text">
+                        <p>Điện thoại Smartphone</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_category_item-img">
+                        <img src="assets/image/category/img5.webp" />
+                    </div>
+                    <div class="wrapper_category_item-text">
+                        <p>Sách tư duy - Kỹ năng sống</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_category_item-img">
+                        <img src="assets/image/category/img6.webp" />
+                    </div>
+                    <div class="wrapper_category_item-text">
+                        <p>Tiểu thuyết</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_category_item-img">
+                        <img src="assets/image/category/img7.webp" />
+                    </div>
+                    <div class="wrapper_category_item-text">
+                        <p>Truyện tranh, Manga, Comic</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_category_item-img">
+                        <img src="assets/image/category/img8.webp" />
+                    </div>
+                    <div class="wrapper_category_item-text">
+                        <p>Truyện ngắn - Tản Văn - Tạp Chí</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_category_item-img">
+                        <img src="assets/image/category/img9.webp" />
+                    </div>
+                    <div class="wrapper_category_item-text">
+                        <p>Sửa rửa mặt</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_category_item-img">
+                        <img src="assets/image/category/img10.webp" />
+                    </div>
+                    <div class="wrapper_category_item-text">
+                        <p>Kem chống nắng</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_category_item-img">
+                        <img src="assets/image/category/img11.webp" />
+                    </div>
+                    <div class="wrapper_category_item-text">
+                        <p>Khác</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_category_item-img">
+                        <img src="assets/image/category/img12.webp" />
+                    </div>
+                    <div class="wrapper_category_item-text">
+                        <p>Kem và sữa dưỡng da</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_category_item-img">
+                        <img src="assets/image/category/img13.webp" />
+                    </div>
+                    <div class="wrapper_category_item-text">
+                        <p>Bình giữ nhiệt</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_category_item-img">
+                        <img src="assets/image/category/img14.webp" />
+                    </div>
+                    <div class="wrapper_category_item-text">
+                        <p>Tác phẩm kinh điển</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_category_item-img">
+                        <img src="assets/image/category/img15.webp" />
+                    </div>
+                    <div class="wrapper_category_item-text">
+                        <p>Bàn ghế làm việc</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_category_item-img">
+                        <img src="assets/image/category/img16.webp" />
+                    </div>
+                    <div class="wrapper_category_item-text">
+                        <p>Tả quần</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_category_item-img">
+                        <img src="assets/image/category/img17.webp" />
+                    </div>
+                    <div class="wrapper_category_item-text">
+                        <p>Sách học Tiếng Anh</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_category_item-img">
+                        <img src="assets/image/category/img18.webp" />
+                    </div>
+                    <div class="wrapper_category_item-text">
+                        <p>Tủ</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_category_item-img">
+                        <img src="assets/image/category/img19.webp" />
+                    </div>
+                    <div class="wrapper_category_item-text">
+                        <p>Kệ & Tủ</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="wrapper_category_item-img">
+                        <img src="assets/image/category/img20.webp" />
+                    </div>
+                    <div class="wrapper_category_item-text">
+                        <p>Máy tính bảng</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="wrapper_banner_three">
+        <img src="assets/image/banner/img9.webp" alt="" />
+        <img src="assets/image/banner/img10.webp" alt="" />
+        <img src="assets/image/banner/img11.webp" alt="" />
+    </div>
+    <div class="wrapper_product">
+        <h3>Gợi Ý Hôm Nay</h3>
+        <div class="wrapper_product-nav">
+            <ul>
+                <div class="col">
+                    <li>
+                        <a href="#">
+                            <div class="wrapper_category_item-img">
+                                <img src="assets/image/product/productnav1.webp" />
+                            </div>
+                            <div class="wrapper_category_item-text">
+                                <p>Dành cho bạn</p>
+                            </div>
+                        </a>
+                    </li>
+                </div>
+                <div class="col">
+                    <li>
+                        <a href="#">
+                            <div class="wrapper_category_item-img">
+                                <img src="assets/image/product/productnav2.webp" />
+                            </div>
+                            <div class="wrapper_category_item-text">
+                                <p>Săn Coupon 360k</p>
+                            </div>
+                        </a>
+                    </li>
+                </div>
+                <div class="col">
+                    <li>
+                        <a href="#">
+                            <div class="wrapper_category_item-img">
+                                <img src="assets/image/product/productnav3.webp" />
+                            </div>
+                            <div class="wrapper_category_item-text">
+                                <p>Giam đến 49%</p>
+                            </div>
+                        </a>
+                    </li>
+                </div>
+                <div class="col">
+                    <li>
+                        <a href="#">
+                            <div class="wrapper_category_item-img">
+                                <img src="assets/image/product/productnav4.webp" />
+                            </div>
+                            <div class="wrapper_category_item-text">
+                                <p>Đi Chợ Siêu Sale</p>
+                            </div>
+                        </a>
+                    </li>
+                </div>
+                <div class="col">
+                    <li>
+                        <a href="#">
+                            <div class="wrapper_category_item-img">
+                                <img src="assets/image/product/productnav5.webp" />
+                            </div>
+                            <div class="wrapper_category_item-text">
+                                <p>Dịch vụ số</p>
+                            </div>
+                        </a>
+                    </li>
+                </div>
+                <div class="col">
+                    <li>
+                        <a href="#">
+                            <div class="wrapper_category_item-img">
+                                <img src="assets/image/product/productnav6.webp" />
+                            </div>
+                            <div class="wrapper_category_item-text">
+                                <p>Deal Siêu Hot</p>
+                            </div>
+                        </a>
+                    </li>
+                </div>
+                <div class="col">
+                    <li>
+                        <a href="#">
+                            <div class="wrapper_category_item-img">
+                                <img src="assets/image/product/productnav7.webp" />
+                            </div>
+                            <div class="wrapper_category_item-text">
+                                <p>Rẻ vô đối</p>
+                            </div>
+                        </a>
+                    </li>
+                </div>
+                <div class="col">
+                    <li>
+                        <a href="#">
+                            <div class="wrapper_category_item-img">
+                                <img src="assets/image/product/productnav8.webp" />
+                            </div>
+                            <div class="wrapper_category_item-text">
+                                <p>Hàng mới</p>
+                            </div>
+                        </a>
+                    </li>
+                </div>
+            </ul>
+        </div>
+
+        <div class="wrapper_product-list">
+            <div class="col-2">
+                <div class="product-list-item">
+                    <a href="#">
+                        <div class="product-list_item-img">
+                            <img src="assets/image/product/img1.webp" alt="" />
+                        </div>
+                        <div class="product-list_item-info">
+                            <div class="product-list_item_info-text">
+                                <p>Compo Dầu Gội, Dầu Xả</p>
+                            </div>
+                            <div class="product-list_item_info-star">
+                                <div class="item_info_star-icons">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="item_info_star-text">
+                                    <p>Đã bán 1000+</p>
+                                </div>
+                            </div>
+                            <div class="product-list_item_info-price">
+                                <p>269.000đ</p>
+                                <span class="price_sale">-13%</span>
+                            </div>
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <button class="product_list-sellAll">Xem thêm</button>
+        </div>
+    </div>
+</div>
+        </div>
+       
+        <footer>
+            <div class="wrapper_footer">
+                <div class="footer_info">
+                    <div class="container">
+                        <ul class="footer-nav-list col-2 col-md-3 col-sm-6">
+                            <li class="footer-nav-item">
+                                <h2 class="nav-title">Hỗ trợ khách hàng</h2>
+                            </li>
+
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Hotline: <b>1900-6035</b></a>
+                            </li>
+
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Câu hỏi thường gặp</a>
+                            </li>
+
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Gửi yêu cầu hỗ trợ</a>
+                            </li>
+
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Hướng dẫn đặt hàng</a>
+                            </li>
+
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Phương thức vận chuyển</a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Chính sách đổi trả</a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Hướng dẫn trả góp</a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Chính sách hàng nhập khẩu</a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Hỗ trợ khách hàng: hotro@tiki.vn</a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Báo lỗi bảo mật: security@tiki.vn </a>
+                            </li>
+
+                        </ul>
+
+                        <ul class="footer-nav-list col-2 col-md-3 col-sm-6">
+                            <li class="footer-nav-item">
+                                <h2 class="nav-title">VỀ Tiki</h2>
+                            </li>
+
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Giới thiệu Tiki</a>
+                            </li>
+
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Tuyển Dụng</a>
+                            </li>
+
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Chính sách bảo mật thanh toán</a>
+
+                            </li>
+
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Chính sách bảo mật thông tin cá nhân</a>
+                            </li>
+
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Chính sách giải quyết khiếu nại</a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Điều khoản sử dụng</a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Gioi thiệu Tiki Xu</a>
+                            </li>
+
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">SEP - Mua sắm có lời</a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Tiếp thị liên kết cùng Tiki</a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Bán hàng doanh nghiệp</a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Điều kiện vận chuyển</a>
+                            </li>
+                        </ul>
+
+                        <ul class="footer-nav-list col-2 col-md-3 col-sm-6">
+                            <h2 class="nav-title">Hợp tác và liên kết</h2>
+                            <div class="footer-nav-list-item">
+                                <ul>
+                                    <div class="col-4">
+                                        <li class="footer-nav-item">
+                                            <a href="#" class="footer-nav-link">Quy chế hoạt động Sàn GDTMDT</a>
+                                        </li>
+                                    </div>
+
+                                    <div class="col-4">
+                                        <li class="footer-nav-item">
+                                            <a href="#" class="footer-nav-link">Bán hàng cùng Tiki</a>
+                                        </li>
+                                    </div>
+                                </ul>
+                            </div>
+                            <h2 class="nav-title mt">Chứng nhận bởi</h2>
+                            <div class="footer-nav-list-item">
+                                <ul>
+                                    <div class="col-4">
+                                        <li class="footer-nav-item">
+                                            <img src="assest/images/shipping/img1.png" width="50" />
+                                        </li>
+                                    </div>
+
+                                    <div class="col-4">
+                                        <li class="footer-nav-item">
+                                            <img src="assest/images/shipping/img2.png" width="50" />
+                                        </li>
+                                    </div>
+                                </ul>
+                            </div>
+                        </ul>
+
+                        <ul class="footer-nav-list col-2 col-md-3 col-sm-6">
+                            <h2 class="nav-title">Phương thức thanh toán</h2>
+                            <div class="footer-nav-list-item">
+                                <ul>
+                                    <div class="col-4">
+                                        <li class="footer-nav-item">
+                                            <a href="#" class="footer-nav-link">Image</a>
+                                        </li>
+                                    </div>
+
+
+                                </ul>
+                            </div>
+                            <h2 class="nav-title">Dịch vụ giao hàng</h2>
+                            <div class="footer-nav-list-item">
+                                <ul>
+                                    <div class="col-4">
+                                        <li class="footer-nav-item">
+                                            <a href="#" class="footer-nav-link">Image</a>
+                                        </li>
+                                    </div>
+
+                                </ul>
+                            </div>
+
+                        </ul>
+
+                        <ul class="footer-nav-list col-2 col-md-3 col-sm-6">
+
+
+                            <h2 class="nav-title">Kết nối với chúng tôi</h2>
+                            <div class="footer-nav-list-item">
+                                <ul>
+                                    <div class="col-4">
+                                        <li class="footer-nav-item">
+                                            <a href="#" class="footer-nav-link">Image</a>
+                                        </li>
+                                        <li class="footer-nav-item">
+                                            <a href="#" class="footer-nav-link">Image</a>
+                                        </li>
+                                        <li class="footer-nav-item">
+                                            <a href="#" class="footer-nav-link">Image</a>
+                                        </li>
+                                    </div>
+                                </ul>
+                            </div>
+                            <h2 class="nav-title">Tải ứng dụng trên điện thoại</h2>
+                            <div class="footer-nav-list-item">
+                                <div class="download_app--qr">
+                                    <ul>
+                                        <li class="footer-nav-item">
+                                            <img src="assest/images/app/img1.png" />
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="download_app--tool">
+                                    <ul>
+                                        <li class="footer-nav-item">
+                                            <img src="assest/images/app/img2.png" />
+                                        </li>
+                                        <li class="footer-nav-item">
+                                            <img src="assest/images/app/img3.png" />
+                                        </li>
+                                        <li class="footer-nav-item">
+                                            <img src="assest/images/app/img4.png" />
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_address">
+                    <h3>Tiki - Thật nhanh, thật chất lượng, thật rẻ</h3>
+                    <h4>Tiki có tất cả</h4>
+                    <p>Với hàng triệu sản phẩm từ các thương hiệu, cửa hàng uy tín, hàng nghìn loại mặt hàng từ Điện
+                        thoại smartphone tới Rau
+                        củ quả tươi, kèm theo dịch vụ giao hàng siêu tốc TikiNOW, Tiki mang đến cho bạn một trải nghiệm
+                        mua sắm online bắt đầu
+                        bằng chữ tín. Thêm vào đó, ở Tiki bạn có thể dễ dàng sử dụng vô vàn các tiện ích khác như mua
+                        thẻ cào, thanh toán hoá
+                        đơn điện nước, các dịch vụ bảo hiểm.</p>
+                    <h4>Khuyến mãi, ưu đãi tràn ngập</h4>
+                    <p>Bạn muốn săn giá sốc, Tiki có giá sốc mỗi ngày cho bạn! Bạn là tín đồ của các thương hiệu, các
+                        cửa hàng Official chính
+                        hãng đang chờ đón bạn. Không cần săn mã freeship, vì Tiki đã có hàng triệu sản phẩm trong chương
+                        trình Freeship+, không
+                        giới hạn lượt đặt, tiết kiệm thời gian vàng bạc của bạn. Mua thêm gói TikiNOW tiết kiệm để nhận
+                        100% free ship 2h &
+                        trong ngày, hoặc mua gói TikiNOW cao cấp để nhận được 100% freeship, áp dụng cho 100% sản phẩm,
+                        100% tỉnh thành Việt
+                        Nam. Bạn muốn tiết kiệm hơn nữa? Đã có TikiCARD, thẻ tín dụng Tiki hoàn tiền 15% trên mọi giao
+                        dịch (tối đa hoàn
+                        600k/tháng)</p>
+                </div>
+                <div class="wrapper_text">
+                    <p>Trụ sở chính: Tòa nhà Viettel, Số 285, đường Cách Mạng Tháng 8, phường 12, quận 10, Thành phố Hồ
+                        Chí Minh
+
+                        Tiki nhận đặt hàng trực tuyến và giao hàng tận nơi, chưa hỗ trợ mua và nhận hàng trực tiếp tại
+                        văn phòng hoặc trung tâm
+                        xử lý đơn hàng
+
+                        Giấy chứng nhận Đăng ký Kinh doanh số 0309532909 do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh
+                        cấp lần đầu ngày
+                        06/01/2010 và sửa đổi lần thứ 23 ngày 14/02/2022
+
+                        © 2022 - Bản quyền của Công ty TNHH Ti Ki</p>
+                </div>
+                <div class="wrapper_category">
+                    <h2>Danh mục Sản phẩm</h2>
+                    <div class="footer_two--category">
+                        <div class="footer-category-box">
+                            <p class="category-box-title">THỜI TRANG NAM</p>
+                            <div class="footer-category-box-item">
+                                <a href="#" class="footer-category-link">Áo khoác</a>
+                                <a href="#" class="footer-category-link">Áo Vest và Blazer</a>
+                                <a href="#" class="footer-category-link">Áo Hoodie, Áo Len & Áo Nỉ</a>
+                                <a href="#" class="footer-category-link">Quần Jeans</a>
+                                <a href="#" class="footer-category-link">Quần Dài/Quần Âu</a>
+                                <a href="#" class="footer-category-link">Quần Short</a>
+                                <a href="#" class="footer-category-link">Áo Ba Lỗ</a>
+                                <a href="#" class="footer-category-link">Đồ Lót</a>
+                                <a href="#" class="footer-category-link">Đồ Ngủ</a>
+                                <a href="#" class="footer-category-link">Đồ Bộ</a>
+                                <a href="#" class="footer-category-link">Vớ/Tất</a>
+                                <a href="#" class="footer-category-link">Trang Phục Truyền Thống</a>
+                                <a href="#" class="footer-category-link">Đồ Hóa Trang</a>
+                                <a href="#" class="footer-category-link">Trang Phục Nghành Nghề</a>
+                                <a href="#" class="footer-category-link">Khác</a>
+                                <a href="#" class="footer-category-link">Trang Sức Nam</a>
+                                <a href="#" class="footer-category-link">Kính Mắt Nam</a>
+                                <a href="#" class="footer-category-link">Thắt Lưng Nam</a>
+                                <a href="#" class="footer-category-link">Cà vạt & Nơ cổ</a>
+                                <a href="#" class="footer-category-link">Phụ Kiện Nam</a>
+                            </div>
+                        </div>
+
+                        <div class="footer-category-box">
+                            <p class="category-box-title">Fashion</p>
+                            <div class="footer-category-box-item">
+                                <a href="#" class="footer-category-link">Áo khoác</a>
+                                <a href="#" class="footer-category-link">Áo Vest và Blazer</a>
+                                <a href="#" class="footer-category-link">Áo Hoodie, Áo Len & Áo Nỉ</a>
+                                <a href="#" class="footer-category-link">Quần Jeans</a>
+                                <a href="#" class="footer-category-link">Quần Dài/Quần Âu</a>
+                                <a href="#" class="footer-category-link">Quần Short</a>
+                                <a href="#" class="footer-category-link">Áo Ba Lỗ</a>
+                                <a href="#" class="footer-category-link">Đồ Lót</a>
+                                <a href="#" class="footer-category-link">Đồ Ngủ</a>
+                                <a href="#" class="footer-category-link">Đồ Bộ</a>
+                                <a href="#" class="footer-category-link">Vớ/Tất</a>
+                                <a href="#" class="footer-category-link">Trang Phục Truyền Thống</a>
+                                <a href="#" class="footer-category-link">Đồ Hóa Trang</a>
+                                <a href="#" class="footer-category-link">Trang Phục Nghành Nghề</a>
+                                <a href="#" class="footer-category-link">Khác</a>
+                                <a href="#" class="footer-category-link">Trang Sức Nam</a>
+                                <a href="#" class="footer-category-link">Kính Mắt Nam</a>
+                                <a href="#" class="footer-category-link">Thắt Lưng Nam</a>
+                                <a href="#" class="footer-category-link">Cà vạt & Nơ cổ</a>
+                                <a href="#" class="footer-category-link">Phụ Kiện Nam</a>
+                            </div>
+                        </div>
+                        <div class="footer-category-box">
+                            <p class="category-box-title">Fashion</p>
+                            <div class="footer-category-box-item">
+                                <a href="#" class="footer-category-link">Áo khoác</a>
+                                <a href="#" class="footer-category-link">Áo Vest và Blazer</a>
+                                <a href="#" class="footer-category-link">Áo Hoodie, Áo Len & Áo Nỉ</a>
+                                <a href="#" class="footer-category-link">Quần Jeans</a>
+                                <a href="#" class="footer-category-link">Quần Dài/Quần Âu</a>
+                                <a href="#" class="footer-category-link">Quần Short</a>
+                                <a href="#" class="footer-category-link">Áo Ba Lỗ</a>
+                                <a href="#" class="footer-category-link">Đồ Lót</a>
+                                <a href="#" class="footer-category-link">Đồ Ngủ</a>
+                                <a href="#" class="footer-category-link">Đồ Bộ</a>
+                                <a href="#" class="footer-category-link">Vớ/Tất</a>
+                                <a href="#" class="footer-category-link">Trang Phục Truyền Thống</a>
+                                <a href="#" class="footer-category-link">Đồ Hóa Trang</a>
+                                <a href="#" class="footer-category-link">Trang Phục Nghành Nghề</a>
+                                <a href="#" class="footer-category-link">Khác</a>
+                                <a href="#" class="footer-category-link">Trang Sức Nam</a>
+                                <a href="#" class="footer-category-link">Kính Mắt Nam</a>
+                                <a href="#" class="footer-category-link">Thắt Lưng Nam</a>
+                                <a href="#" class="footer-category-link">Cà vạt & Nơ cổ</a>
+                                <a href="#" class="footer-category-link">Phụ Kiện Nam</a>
+                            </div>
+                        </div>
+                        <div class="footer-category-box">
+                            <p class="category-box-title">Fashion</p>
+                            <div class="footer-category-box-item">
+                                <a href="#" class="footer-category-link">Áo khoác</a>
+                                <a href="#" class="footer-category-link">Áo Vest và Blazer</a>
+                                <a href="#" class="footer-category-link">Áo Hoodie, Áo Len & Áo Nỉ</a>
+                                <a href="#" class="footer-category-link">Quần Jeans</a>
+                                <a href="#" class="footer-category-link">Quần Dài/Quần Âu</a>
+                                <a href="#" class="footer-category-link">Quần Short</a>
+                                <a href="#" class="footer-category-link">Áo Ba Lỗ</a>
+                                <a href="#" class="footer-category-link">Đồ Lót</a>
+                                <a href="#" class="footer-category-link">Đồ Ngủ</a>
+                                <a href="#" class="footer-category-link">Đồ Bộ</a>
+                                <a href="#" class="footer-category-link">Vớ/Tất</a>
+                                <a href="#" class="footer-category-link">Trang Phục Truyền Thống</a>
+                                <a href="#" class="footer-category-link">Đồ Hóa Trang</a>
+                                <a href="#" class="footer-category-link">Trang Phục Nghành Nghề</a>
+                                <a href="#" class="footer-category-link">Khác</a>
+                                <a href="#" class="footer-category-link">Trang Sức Nam</a>
+                                <a href="#" class="footer-category-link">Kính Mắt Nam</a>
+                                <a href="#" class="footer-category-link">Thắt Lưng Nam</a>
+                                <a href="#" class="footer-category-link">Cà vạt & Nơ cổ</a>
+                                <a href="#" class="footer-category-link">Phụ Kiện Nam</a>
+                            </div>
+                        </div>
+                        <div class="footer-category-box">
+                            <p class="category-box-title">Fashion</p>
+                            <div class="footer-category-box-item">
+                                <a href="#" class="footer-category-link">Áo khoác</a>
+                                <a href="#" class="footer-category-link">Áo Vest và Blazer</a>
+                                <a href="#" class="footer-category-link">Áo Hoodie, Áo Len & Áo Nỉ</a>
+                                <a href="#" class="footer-category-link">Quần Jeans</a>
+                                <a href="#" class="footer-category-link">Quần Dài/Quần Âu</a>
+                                <a href="#" class="footer-category-link">Quần Short</a>
+                                <a href="#" class="footer-category-link">Áo Ba Lỗ</a>
+                                <a href="#" class="footer-category-link">Đồ Lót</a>
+                                <a href="#" class="footer-category-link">Đồ Ngủ</a>
+                                <a href="#" class="footer-category-link">Đồ Bộ</a>
+                                <a href="#" class="footer-category-link">Vớ/Tất</a>
+                                <a href="#" class="footer-category-link">Trang Phục Truyền Thống</a>
+                                <a href="#" class="footer-category-link">Đồ Hóa Trang</a>
+                                <a href="#" class="footer-category-link">Trang Phục Nghành Nghề</a>
+                                <a href="#" class="footer-category-link">Khác</a>
+                                <a href="#" class="footer-category-link">Trang Sức Nam</a>
+                                <a href="#" class="footer-category-link">Kính Mắt Nam</a>
+                                <a href="#" class="footer-category-link">Thắt Lưng Nam</a>
+                                <a href="#" class="footer-category-link">Cà vạt & Nơ cổ</a>
+                                <a href="#" class="footer-category-link">Phụ Kiện Nam</a>
+                            </div>
+                        </div>
+                        <div class="footer-category-box">
+                            <p class="category-box-title">Fashion</p>
+                            <div class="footer-category-box-item">
+                                <a href="#" class="footer-category-link">Áo khoác</a>
+                                <a href="#" class="footer-category-link">Áo Vest và Blazer</a>
+                                <a href="#" class="footer-category-link">Áo Hoodie, Áo Len & Áo Nỉ</a>
+                                <a href="#" class="footer-category-link">Quần Jeans</a>
+                                <a href="#" class="footer-category-link">Quần Dài/Quần Âu</a>
+                                <a href="#" class="footer-category-link">Quần Short</a>
+                                <a href="#" class="footer-category-link">Áo Ba Lỗ</a>
+                                <a href="#" class="footer-category-link">Đồ Lót</a>
+                                <a href="#" class="footer-category-link">Đồ Ngủ</a>
+                                <a href="#" class="footer-category-link">Đồ Bộ</a>
+                                <a href="#" class="footer-category-link">Vớ/Tất</a>
+                                <a href="#" class="footer-category-link">Trang Phục Truyền Thống</a>
+                                <a href="#" class="footer-category-link">Đồ Hóa Trang</a>
+                                <a href="#" class="footer-category-link">Trang Phục Nghành Nghề</a>
+                                <a href="#" class="footer-category-link">Khác</a>
+                                <a href="#" class="footer-category-link">Trang Sức Nam</a>
+                                <a href="#" class="footer-category-link">Kính Mắt Nam</a>
+                                <a href="#" class="footer-category-link">Thắt Lưng Nam</a>
+                                <a href="#" class="footer-category-link">Cà vạt & Nơ cổ</a>
+                                <a href="#" class="footer-category-link">Phụ Kiện Nam</a>
+                            </div>
+                        </div>
+                        <div class="footer-category-box">
+                            <p class="category-box-title">Fashion</p>
+                            <div class="footer-category-box-item">
+                                <a href="#" class="footer-category-link">Áo khoác</a>
+                                <a href="#" class="footer-category-link">Áo Vest và Blazer</a>
+                                <a href="#" class="footer-category-link">Áo Hoodie, Áo Len & Áo Nỉ</a>
+                                <a href="#" class="footer-category-link">Quần Jeans</a>
+                                <a href="#" class="footer-category-link">Quần Dài/Quần Âu</a>
+                                <a href="#" class="footer-category-link">Quần Short</a>
+                                <a href="#" class="footer-category-link">Áo Ba Lỗ</a>
+                                <a href="#" class="footer-category-link">Đồ Lót</a>
+                                <a href="#" class="footer-category-link">Đồ Ngủ</a>
+                                <a href="#" class="footer-category-link">Đồ Bộ</a>
+                                <a href="#" class="footer-category-link">Vớ/Tất</a>
+                                <a href="#" class="footer-category-link">Trang Phục Truyền Thống</a>
+                                <a href="#" class="footer-category-link">Đồ Hóa Trang</a>
+                                <a href="#" class="footer-category-link">Trang Phục Nghành Nghề</a>
+                                <a href="#" class="footer-category-link">Khác</a>
+                                <a href="#" class="footer-category-link">Trang Sức Nam</a>
+                                <a href="#" class="footer-category-link">Kính Mắt Nam</a>
+                                <a href="#" class="footer-category-link">Thắt Lưng Nam</a>
+                                <a href="#" class="footer-category-link">Cà vạt & Nơ cổ</a>
+                                <a href="#" class="footer-category-link">Phụ Kiện Nam</a>
+                            </div>
+                        </div>
+                        <div class="footer-category-box">
+                            <p class="category-box-title">Fashion</p>
+                            <div class="footer-category-box-item">
+                                <a href="#" class="footer-category-link">Áo khoác</a>
+                                <a href="#" class="footer-category-link">Áo Vest và Blazer</a>
+                                <a href="#" class="footer-category-link">Áo Hoodie, Áo Len & Áo Nỉ</a>
+                                <a href="#" class="footer-category-link">Quần Jeans</a>
+                                <a href="#" class="footer-category-link">Quần Dài/Quần Âu</a>
+                                <a href="#" class="footer-category-link">Quần Short</a>
+                                <a href="#" class="footer-category-link">Áo Ba Lỗ</a>
+                                <a href="#" class="footer-category-link">Đồ Lót</a>
+                                <a href="#" class="footer-category-link">Đồ Ngủ</a>
+                                <a href="#" class="footer-category-link">Đồ Bộ</a>
+                                <a href="#" class="footer-category-link">Vớ/Tất</a>
+                                <a href="#" class="footer-category-link">Trang Phục Truyền Thống</a>
+                                <a href="#" class="footer-category-link">Đồ Hóa Trang</a>
+                                <a href="#" class="footer-category-link">Trang Phục Nghành Nghề</a>
+                                <a href="#" class="footer-category-link">Khác</a>
+                                <a href="#" class="footer-category-link">Trang Sức Nam</a>
+                                <a href="#" class="footer-category-link">Kính Mắt Nam</a>
+                                <a href="#" class="footer-category-link">Thắt Lưng Nam</a>
+                                <a href="#" class="footer-category-link">Cà vạt & Nơ cổ</a>
+                                <a href="#" class="footer-category-link">Phụ Kiện Nam</a>
+                            </div>
+                        </div>
+                        <div class="footer-category-box">
+                            <p class="category-box-title">Fashion</p>
+                            <div class="footer-category-box-item">
+                                <a href="#" class="footer-category-link">Áo khoác</a>
+                                <a href="#" class="footer-category-link">Áo Vest và Blazer</a>
+                                <a href="#" class="footer-category-link">Áo Hoodie, Áo Len & Áo Nỉ</a>
+                                <a href="#" class="footer-category-link">Quần Jeans</a>
+                                <a href="#" class="footer-category-link">Quần Dài/Quần Âu</a>
+                                <a href="#" class="footer-category-link">Quần Short</a>
+                                <a href="#" class="footer-category-link">Áo Ba Lỗ</a>
+                                <a href="#" class="footer-category-link">Đồ Lót</a>
+                                <a href="#" class="footer-category-link">Đồ Ngủ</a>
+                                <a href="#" class="footer-category-link">Đồ Bộ</a>
+                                <a href="#" class="footer-category-link">Vớ/Tất</a>
+                                <a href="#" class="footer-category-link">Trang Phục Truyền Thống</a>
+                                <a href="#" class="footer-category-link">Đồ Hóa Trang</a>
+                                <a href="#" class="footer-category-link">Trang Phục Nghành Nghề</a>
+                                <a href="#" class="footer-category-link">Khác</a>
+                                <a href="#" class="footer-category-link">Trang Sức Nam</a>
+                                <a href="#" class="footer-category-link">Kính Mắt Nam</a>
+                                <a href="#" class="footer-category-link">Thắt Lưng Nam</a>
+                                <a href="#" class="footer-category-link">Cà vạt & Nơ cổ</a>
+                                <a href="#" class="footer-category-link">Phụ Kiện Nam</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>

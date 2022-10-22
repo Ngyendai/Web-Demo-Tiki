@@ -1,0 +1,256 @@
+.wrapper {
+ width: 100%;
+  height: auto;
+  background-color: #efefef;
+}
+header,
+nav,
+footer {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(26, 148, 255);
+}
+.header,
+.nav_bar,
+.wrapper_margin,
+.wrapper_footer {
+  width: 92%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #efefef;
+}
+.header {
+  display: flex;
+  height: 100px;
+  padding: 15px 0;
+  background-color: rgb(26, 148, 255);
+  position: relative;
+  color: #fff;
+}
+.header_logo {
+  width: 3%;
+  object-fit: cover;
+}
+.header_logo img:last-child {
+  margin-top: 5px;
+}
+
+.header_search {
+  width: 82%;
+  height: 20px;
+  position: absolute;
+  left: 18%;
+}
+.header_search-input,
+.header_search {
+  display: flex;
+}
+.header_search-input {
+  width: 720px;
+  height: 40px;
+}
+.header_search-input input {
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  outline: 0;
+  padding: 0 10px;
+  border-radius: 1px;
+  border: 0;
+  background-color: #fff;
+  box-shadow: rgb(98 98 98 / 50%) 0px 1px 2px 0px;
+}
+.header_search-input input::placeholder {
+  font-size: 13px;
+  color: #555;
+}
+.header_search-icon {
+  width: 18%;
+  height: 100%;
+  color: #fff;
+  padding: 8px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(13, 92, 182);
+}
+.header_search-icon .fa-solid {
+  margin-right: 10px;
+}
+.header_search-text ul {
+  display: flex;
+}
+
+.header_search-text ul li {
+  margin: 7px 7px 5px 0;
+}
+.header_search-text ul li a {
+  font-size: 11px;
+  color: #fff;
+}
+.header_info {
+  width: 26%;
+  position: absolute;
+  right: 0%;
+}
+.header_info-login {
+  width: 58%;
+  font-size: 12px;
+}
+.header_info-login .info_login-icon {
+  font-size: 26px;
+}
+.header_info-cart {
+  display: flex;
+  position: relative;
+}
+.header_info-cart .fa-solid {
+  font-size: 26px;
+}
+.header_info-cart p {
+  margin-top: 10px;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.header_info-cart .count {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  background: rgb(253, 216, 53);
+  color: #555;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 4px 7px;
+  border-radius: 20px;
+}
+
+.info_cart-text {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  padding: 3px 8px;
+  position: absolute;
+  border-radius: 50px;
+  right: 0;
+  top: 100%;
+  font-size: 12px;
+  margin-top: 7px;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+.info_cart-text .fa-solid {
+  margin-right: 5px;
+}
+.nav_bar {
+  padding: 10px;
+  background-color: #fff;
+}
+.nav_bar ul li a {
+  color: rgb(56, 56, 61);
+}
+.wrapper_content{
+  width: 100%;
+  background-color: #efefef;
+}
+.wrapper_margin {
+  height: auto;
+}
+.wrapper_slider {
+  height: 100px;
+  height: 280px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.wrapper_slider-img {
+  width: 69.5%;
+}
+.wrapper_slider-img img,
+.wrapper_slider-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.wrapper_slider-banner {
+  width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper_flashSale {
+  height: 100px;
+  background-color: cornflowerblue;
+}
+
+.wrapper_banner_one {
+  height: 100px;
+  background-color: cyan;
+}
+.wrapper_heading {
+  height: 100px;
+  background-color: darkmagenta;
+}
+.wrapper_two {
+  height: 100px;
+  background-color: darkred;
+}
+.wrapper_brand {
+  height: 100px;
+  background-color: hotpink;
+}
+.wrapper_category {
+  height: 100px;
+  background-color: gold;
+}
+.wrapper_banner_three {
+  height: 100px;
+  background-color: darkslateblue;
+}
+.wrapper_product {
+  height: 100px;
+  background-color: darkslategray;
+}
+.wrapper_brand {
+  height: 100px;
+  background-color: mediumorchid;
+}
+.wrapper_footer {
+  height: 100%;
+  background-color: darksalmon;
+}
+.footer_info {
+  height: 100px;
+  background-color: darkturquoise;
+}
+.footer_address {
+  height: 100px;
+  background-color: darkblue;
+}
+.wrapper_text {
+  height: 100px;
+  background-color: blue;
+}
+.wrapper_category {
+  height: 100px;
+  background-color: darkturquoise;
+}
