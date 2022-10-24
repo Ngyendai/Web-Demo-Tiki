@@ -38,11 +38,12 @@
 }
 
 .col-5 {
-  width: 12.22%;
+ width: 28%;
+  margin-right: 5px;
 }
 
 .col-6 {
-  width: 50%;
+  width: 12.22%;
 }
 
 .col-7 {
