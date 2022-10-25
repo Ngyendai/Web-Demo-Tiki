@@ -47,15 +47,15 @@
 }
 
 .col-7 {
-  width: 58.33%;
+  width: 33%;
 }
 
 .col-8 {
-  width: 66.66%;
+  width: 49.66%;
 }
 
 .col-9 {
-  width: 75%;
+  width: 25%;
 }
 
 .col-10 {
@@ -164,7 +164,7 @@
   }
 
   .col-sm-7 {
-    width: 49%;
+    width: 50%;
   }
 
   .col-sm-8 {
@@ -186,84 +186,33 @@
   .col-sm-12 {
     width: 100%;
   }
-  .wrapper_category--item li,
-  .wrapper_heading li {
-    width: 200px;
-  }
-  .wrapper_heading ul,
-  .wrapper_category--item ul {
-    justify-content: space-between;
-  }
-  .wrapper_flashSale--title,
-  .wrapper_mail--image {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  .wrapper_mail--box {
-    flex-wrap: wrap;
-  }
-  .header_top-left,
-  .center_list--search {
+  .footer_info,
+  .wrapper_footer_category{
     display: none;
   }
-  .header_bottom-left {
-    width: 100%;
-    text-align: center;
+  .product-list-item{
+    margin: 5px;
+    background-color: #fff;
   }
-  .center_search {
-    width: 360px;
-    height: 40px;
+  .product-list-item:hover{
+    box-shadow: none;
   }
-  .btn-search {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 3px;
-    cursor: pointer;
-    font-size: 22px;
-    color: #fff;
-    background-color: #e74c2c;
-    border: 1px solid #e74c2c;
+  .wrapper_product-list {
+    background-color: #efefef;
   }
-  .header_bottom {
-    margin-top: 0px;
-    padding-bottom: 5px;
+  .wrapper_category_item-text{
+    font-size: 11px;
   }
-  .header_bottom-right {
-    margin-right: 0;
+  .wrapper_product-nav ul{
+    display: flex;
   }
-  .header_top-right {
-    width: 100%;
+  .wrapper_product-nav ul li{
+    margin: 3px;
   }
-  ul.devided > li:last-child {
-    margin-right: 0px;
-    padding-right: 0px;
+  .wrapper_banner_three img{
+      border-radius: 4px;
   }
-  .wrapper_box-center {
-    width: 100%;
-  }
-  .wrapper_category--item ul {
+  .wrapper_category-item{
     justify-content: flex-start;
-  }
-  .wrapper_category--item ul li {
-    margin: 0 18px;
-  }
-  .see_all,
-  .flashSale_title--left {
-    display: none;
-  }
-  .wrapper_mail,
-  .wrapper_topSearch,
-  .footer_two,
-  .footer-nav,
-  .wrapper_footer_four ,
-  .copy_right--top {
-    display: none;
-  }
-  .copy_right--bottom {
-    margin-top: 0px;
-  }
-  .flashSale_title--watch {
-    padding-right: 12px;
   }
 }

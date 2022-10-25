@@ -18,3 +18,6 @@ Day: 10/23/2022
 Day: 10/24/2022
 1. Build css Product -> Done
 4. Build css Footer -> Done
+
+Day: 10/25/2022
+1. Build Responsive mobile in page Tiki -> 60%
