@@ -55,7 +55,7 @@
 }
 
 .col-9 {
-  width: 25%;
+  width: 24.66%;
 }
 
 .col-10 {
@@ -168,7 +168,7 @@
   }
 
   .col-sm-8 {
-    width: 66.66%;
+    width: 49.44%;
   }
 
   .col-sm-9 {
@@ -187,17 +187,29 @@
     width: 100%;
   }
   .footer_info,
-  .wrapper_footer_category{
+  .wrapper_footer_category,
+  .wrapper_heading,
+  .wrapper_banner_one,
+  .wrapper_flashSale-slider,
+  .wrapper_slider-banner,
+  .header_search-text,
+  .header_search-icon,
+  .info_login-text,
+  .header_info-cart p,
+  .info_cart-text,
+  .header_logo img:last-child{
     display: none;
   }
-  .product-list-item{
+  .product-list-item,
+  .flashSale_product-item{
     margin: 5px;
     background-color: #fff;
   }
   .product-list-item:hover{
     box-shadow: none;
   }
-  .wrapper_product-list {
+  .wrapper_product-list,
+  .wrapper_flashSale-product {
     background-color: #efefef;
   }
   .wrapper_category_item-text{
@@ -214,5 +226,71 @@
   }
   .wrapper_category-item{
     justify-content: flex-start;
+  }
+  .wrapper_flashSale-product,
+  .wrapper_slider-img {
+    width: 100%
+  }
+  .flashSale_product-item{
+    padding: 10px;
+  }
+  .flashSale_product_title-left h3{
+    font-size: 18px;
+  }
+  header{
+    position: relative;
+  }
+  .header_search-input {
+    width: 445px;
+    height: 40px;
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 200%;
+  }
+  .header_logo img{
+    width: 50px;
+  }
+  .header_info{
+    width: 20%;
+  }
+  nav,
+  .nav_bar{
+    height: 0;
+    background-color: #efefef;
+  }
+  nav .menu-btn i{
+    display: block;
+  }
+  #click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+  }
+
+  #click:checked ~ ul li a{
+    margin-left: 0px;
+  }
+    nav ul{
+    position: fixed;
+    top: 100px;
+    left: -100%;
+    background: #fff;
+    height: 550px;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+    z-index: 1111;
+  }
+  #click:checked ~ ul{
+    left: 0;
+  }
+  nav ul li{
+    width: 100%;
+  }
+  .wrapper_product-nav li{
+    border-radius: 0;
+  }
+  .wrapper_flashSale-product{
+    padding: 0;
   }
 }

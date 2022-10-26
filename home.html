@@ -25,7 +25,7 @@
                 <div class="header_search">
                     <div class="header_search-box">
                         <div class="header_search-input">
-                            <input type="text" placeholder="Tìm sản phẩm, danh mục hay thương hiệu mong muốn" />
+                            <input type="text" placeholder="Tìm sản phẩm, danh mục hay thương hiệu mong muốn..." />
                             <div class="header_search-icon">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                                 <p>Tìm kiếm</p>
@@ -74,6 +74,10 @@
         </header>
         <nav>
             <div class="nav_bar">
+                <input type="checkbox" id="click">
+                <label for="click" class="menu-btn">
+                <i class="fas fa-bars"></i>
+                </label>
                 <ul class="d_flex">
                     <li>
                         <a href="#">Thịt, Rau Củ</a>
@@ -143,7 +147,7 @@
                             <p><a href="" class="see_all">Xem thêm</a></p>
                         </div>
                         <div class="flashSale_product d_flex">
-                            <div class="col-2">
+                            <div class="col-2 col-sm-8">
                                 <div class="flashSale_product-item">
                                     <a href="#">
                                         <div class="flashSale_product_item-img">
@@ -162,7 +166,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-2">
+                            <div class="col-2 col-sm-8">
                                 <div class="flashSale_product-item">
                                     <a href="#">
                                         <div class="flashSale_product_item-img">
@@ -181,7 +185,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-2">
+                            <div class="col-2 col-sm-8">
                                 <div class="flashSale_product-item">
                                     <a href="#">
                                         <div class="flashSale_product_item-img">
@@ -200,7 +204,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-2">
+                            <div class="col-2 col-sm-8">
                                 <div class="flashSale_product-item">
                                     <a href="#">
                                         <div class="flashSale_product_item-img">
@@ -219,7 +223,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-2">
+                            <div class="col-2 col-sm-8">
                                 <div class="flashSale_product-item">
                                     <a href="#">
                                         <div class="flashSale_product_item-img">
@@ -394,16 +398,16 @@
                     </ul>
                 </div>
                 <div class="wrapper_banner_two d_flex">
-                    <div class="col-9">
+                    <div class="col-9 col-sm-8 ">
                         <img src="assets/image/banner/img5.webp" alt="" />
                     </div>
-                    <div class="col-9">
+                    <div class="col-9 col-sm-8">
                         <img src="assets/image/banner/img6.webp" alt="" />
                     </div>
-                    <div class="col-9">
+                    <div class="col-9 col-sm-8">
                         <img src="assets/image/banner/img7.webp" alt="" />
                     </div>
-                    <div class="col-9">
+                    <div class="col-9 col-sm-8">
                         <img src="assets/image/banner/img8.webp" alt="" />
                     </div>
                 </div>
@@ -418,68 +422,146 @@
                         </div>
                     </div>
                     <div class="wrapper_brand-slider d_flex col-sm-12">
-                        <div class="brand_slider d_flex">
-                            <div class="col-8 ">
-                                <img src="assets/image/slider/img18.webp" alt="" />
-                            </div>
-                            <div class="col-8 ">
-                                <img src="assets/image/slider/img19.webp" alt="" />
-                            </div>
-                          
+                        <div id="slider">
+                            <input type="radio" name="slider" id="slide1" checked>
+                            <input type="radio" name="slider" id="slide2">
+                            <input type="radio" name="slider" id="slide3">
+                            <input type="radio" name="slider" id="slide4">
+                            <!-- <input type="radio" name="slider" id="slide5">
+                            <input type="radio" name="slider" id="slide6">
+                            <input type="radio" name="slider" id="slide7">
+                            <input type="radio" name="slider" id="slide8">
+                            <input type="radio" name="slider" id="slide9">
+                            <input type="radio" name="slider" id="slide10">
+                            <input type="radio" name="slider" id="slide11"> -->
+                            <div id="slides">
+                                <div id="overflow">
+                                  <div class="inner">
+                                    <div class="slide slide_1 d_flex">
+                                      <div class="slide-content">
+                                        <img src="assets/image/banner/img1.webp" />
+                                      </div>
+                                      <div class="slide-content">
+                                        <img src="assets/image/banner/img3.webp" />
+                                      </div>
+                                    </div>
+                                    <div class="slide slide_2 d_flex">
+                                      <div class="slide-content">
+                                        <img src="assets/image/banner/img2.webp" />
+                                      </div>
+                                      <div class="slide-content">
+                                        <img src="assets/image/banner/img1.webp" />
+                                      </div>
+                                    </div>
+                                    <div class="slide slide_3 d_flex">
+                                      <div class="slide-content">
+                                        <img src="assets/image/banner/img3.webp" />
+                                      </div>
+                                      <div class="slide-content">
+                                        <img src="assets/image/banner/img4.webp" />
+                                      </div>
+                                    </div>
+                                    <div class="slide slide_4 d_flex">
+                                      <div class="slide-content">
+                                        <img src="assets/image/banner/img1.webp" />
+                                      </div>
+                                      <div class="slide-content">
+                                        <img src="assets/image/banner/img2.webp" />
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div id="controls">
+                                <label for="slide1"></label>
+                                <label for="slide2"></label>
+                                <label for="slide3"></label>
+                                <label for="slide4"></label>
+                                <!-- <label for="slide5"></label>
+                                <label for="slide6"></label>
+                                <label for="slide7"></label>
+                                <label for="slide8"></label>
+                                <label for="slide9"></label>
+                                <label for="slide10"></label>
+                                <label for="slide11"></label> -->
+                    
+                              </div>
+                              <div id="bullets">
+                                <label for="slide1"></label>
+                                <label for="slide2"></label>
+                                <label for="slide3"></label>
+                                <label for="slide4"></label>
+                                <!-- <label for="slide5"></label>
+                                <label for="slide6"></label>
+                                <label for="slide7"></label>
+                                <label for="slide8"></label>
+                                <label for="slide9"></label>
+                                <label for="slide10"></label>
+                                <label for="slide11"></label> -->
+                              </div>
+                            <!-- <div class="brand_slider d_flex">
+                                <div class="col-8 ">
+                                    <img src="assets/image/slider/img18.webp" alt="" />
+                                </div>
+                                <div class="col-8 ">
+                                    <img src="assets/image/slider/img19.webp" alt="" />
+                                </div>
+                            </div> -->
                         </div>
+                       
                     </div>
                     <div class="wrapper_brand-product">
                         <ul class="d_flex">
-                            <div class="col-3 col-sm-7">
+                            <div class="col-3 col-sm-8">
                                 <li>
                  
                                         <a href="#">
-                                            <img src="assets/image/brand/img1.webp" alt="" width="165" />
+                                            <img src="assets/image/brand/img1.webp" alt=""/>
                                         </a>
                         
                                 </li>
                             </div>
-                            <div class="col-3 col-sm-7">
+                            <div class="col-3 col-sm-8">
                                 <li>
                             
                                         <a href="#">
-                                            <img src="assets/image/brand/img2.webp" alt="" width="165" />
+                                            <img src="assets/image/brand/img2.webp" alt=""/>
                                         </a>
                                 
                                 </li>
                             </div>
-                            <div class="col-3 col-sm-7">
+                            <div class="col-3 col-sm-8">
                                 <li>
                                 
                                         <a href="#">
-                                            <img src="assets/image/brand/img3.webp" alt="" width="165" />
+                                            <img src="assets/image/brand/img3.webp" alt=""/>
                                         </a>
                           
                                 </li>
                             </div>
-                            <div class="col-3 col-sm-7">
+                            <div class="col-3 col-sm-8">
                                 <li>
                                  
                                         <a href="#">
-                                            <img src="assets/image/brand/img4.webp" alt="" width="165" />
+                                            <img src="assets/image/brand/img4.webp" alt=""/>
                                         </a>
                               
                                 </li>
                             </div>
-                            <div class="col-3 col-sm-7">
+                            <div class="col-3 col-sm-8">
                                 <li>
                                    
                                         <a href="#">
-                                            <img src="assets/image/brand/img5.webp" alt="" width="165" />
+                                            <img src="assets/image/brand/img5.webp" alt=""/>
                                         </a>
                              
                                 </li>
                             </div>
-                            <div class="col-3 col-sm-7">
+                            <div class="col-3 col-sm-8">
                                 <li>
                                   
                                         <a href="#">
-                                            <img src="assets/image/brand/img6.webp" alt="" width="165" />
+                                            <img src="assets/image/brand/img6.webp" alt=""/>
                                         </a>
                               
                                 </li>
@@ -1234,7 +1316,7 @@
             <div class="wrapper_footer">
                 <div class="footer_info">
                     <div class="container">
-                        <ul class="footer-nav-list col-2 col-md-3 col-sm-6 d">
+                        <ul class="footer-nav-list col-2 col-md-3">
                             <li class="footer-nav-item">
                                 <h4 class="nav-title">Hỗ trợ khách hàng</h4>
                             </li>
@@ -1276,7 +1358,7 @@
 
                         </ul>
 
-                        <ul class="footer-nav-list col-2 col-md-3 col-sm-6">
+                        <ul class="footer-nav-list col-2 col-md-3">
                             <li class="footer-nav-item">
                                 <h4 class="nav-title">VỀ Tiki</h4>
                             </li>
@@ -1322,7 +1404,7 @@
                             </li>
                         </ul>
 
-                        <ul class="footer-nav-list col-2 col-md-3 col-sm-6">
+                        <ul class="footer-nav-list col-2 col-md-3">
                             <h4 class="nav-title">Hợp tác và liên kết</h4>
                             <div class="footer-nav-list-item1">
                                 <ul>
@@ -1357,7 +1439,7 @@
                             </div>
                         </ul>
 
-                        <ul class="footer-nav-list col-2 col-md-3 col-sm-6">
+                        <ul class="footer-nav-list col-2 col-md-3 ">
                             <h4 class="nav-title">Phương thức thanh toán</h4>
                             <div class="footer-nav-list-item">
                                 <ul>
@@ -1467,7 +1549,7 @@
 
                         </ul>
 
-                        <ul class="footer-nav-list col-2 col-md-3 col-sm-6">
+                        <ul class="footer-nav-list col-2 col-md-3">
 
 
                             <h4 class="nav-title">Kết nối với chúng tôi</h4>
