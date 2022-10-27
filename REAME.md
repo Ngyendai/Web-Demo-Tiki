@@ -21,3 +21,8 @@ Day: 10/24/2022
 
 Day: 10/25/2022
 1. Build Responsive mobile in page Tiki -> 60%
+
+Day: 10/27/2022
+1. Build Responsive mobile in page Tiki -> Done
+2. Save image Slider in page Tiki -> Done
+
