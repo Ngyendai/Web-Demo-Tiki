@@ -26,9 +26,14 @@ Day: 10/27/2022
 1. Build Responsive mobile in page Tiki -> Done
 2. Save image Slider in page Tiki -> Done
 
+Day: 10/28/2022
+1. Update file HTML, CSS
+
 Day: 11/1/2022
 1. Setup code CSS to SCSS 
 
 Day: 11/2/2022
 1. Update code CSS to SCSS -> 50%
+
+
 
