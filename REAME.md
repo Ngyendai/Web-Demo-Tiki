@@ -38,5 +38,8 @@ Day: 11/2/2022
 Day: 11/3/2022
 1. Update code CSS to SCSS -> 100%
 
+Day: 11/7/2022
+3. Update code HTML, CSS -> 50%
+4. Update code CSS to SCSS -> Done
 
 
