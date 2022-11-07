@@ -1,0 +1,288 @@
+@import "./variables";
+@import "./mixins";
+
+.row {
+    display: $displayFlex;
+    flex-wrap: $flexWrap;
+    margin: 0 15px;
+}
+
+.row-revere {
+    flex-direction: row-reverse;
+}
+
+.d_flex {
+    @include alignItems("space-between");
+    flex-wrap: $flexWrap;
+}
+
+.text-align {
+    text-align: left;
+    display: block;
+}
+
+[class*="col-"] {
+    margin-bottom: 0px;
+}
+
+.col-1 {
+    width: 7.66%;
+}
+
+.col-2 {
+    width: 10%;
+}
+
+.col-3 {
+    width: 12.22%;
+}
+
+.col-4 {
+    width: 15.66%;
+}
+
+.col-5 {
+    width: 18.66%;
+}
+
+.col-6 {
+    width: 24.66%;
+}
+
+.col-7 {
+    width: 28%;
+    margin-right: 5px;
+}
+
+.col-8 {
+    width: 33%;
+}
+
+.col-9 {
+    width: 49.66%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1500px) {
+    .wrapper_flashSale--title {
+        width: 23%;
+    }
+
+    .product_box_item-img img {
+        height: 50%;
+    }
+
+    .product_box-item {
+        height: 280px;
+    }
+
+    .product_box {
+        height: 305px;
+    }
+}
+
+/* medium screen */
+
+@media only screen and (max-width: 1280px) {
+    .col-md-1 {
+        width: 8.33%;
+    }
+
+    .col-md-2 {
+        width: 20%;
+    }
+
+    .col-md-3 {
+        width: 25%;
+    }
+
+    .col-md-4 {
+        width: 33.33%;
+    }
+
+    .col-md-5 {
+        width: 41.66%;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-7 {
+        width: 58.33%;
+    }
+
+    .col-md-8 {
+        width: 66.66%;
+    }
+
+    .col-md-9 {
+        width: 75%;
+    }
+
+    .col-md-10 {
+        width: 83.33%;
+    }
+
+    .col-md-11 {
+        width: 91.66%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+/* small screen */
+
+@media only screen and (max-width: 750px) {
+    .col-sm-1 {
+        width: 8.33%;
+    }
+
+    .col-sm-2 {
+        width: 16.66%;
+    }
+
+    .col-sm-3 {
+        width: 25%;
+    }
+
+    .col-sm-4 {
+        width: 33.33%;
+    }
+
+    .col-sm-5 {
+        width: 41.66%;
+    }
+
+    .col-sm-6 {
+        width: 46.44%;
+    }
+
+    .col-sm-7 {
+        width: 49%;
+    }
+
+    .col-sm-8 {
+        width: 49.44%;
+    }
+
+    .col-sm-9 {
+        width: 75%;
+    }
+
+    .col-sm-10 {
+        width: 83.33%;
+    }
+
+    .col-sm-11 {
+        width: 91.66%;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+
+    .footer_info,
+    .wrapper_footer_category,
+    .wrapper_heading,
+    .wrapper_banner_one,
+    .wrapper_flashSale-slider,
+    .wrapper_slider-banner,
+    .header_search-text,
+    .header_search-icon,
+    .info_login-text,
+    .header_info-cart p,
+    .header_logo img:last-child,
+    .flashSale-product-title .see_all,
+    .brand_title .see_all,
+    .wrapper_brand-slider {
+        display: none;
+    }
+
+    .product-list-item,
+    .flashSale_product-item {
+        margin: 5px;
+        @include bgc();
+    }
+
+    .product-list-item:hover {
+        box-shadow: none;
+    }
+
+    .wrapper_product-list,
+    .wrapper_flashSale-product {
+        @include bgc(#efefef);
+    }
+
+    .wrapper_category_item-text {
+        @include fontSize(11px);
+    }
+
+    .wrapper_product-nav ul {
+        display: $displayFlex;
+    }
+    .wrapper_banner_three img {
+        border-radius: 4px;
+    }
+
+    .wrapper_category-item {
+        justify-content: flex-start;
+    }
+
+    .wrapper_flashSale-product,
+    .wrapper_slider-img {
+        @include width();
+    }
+
+    .flashSale_product-item {
+        padding: 10px;
+    }
+    nav,
+    .nav_bar {
+        @include height(0);
+        @include bgc(#efefef);
+    }
+    #click:checked~.menu-btn i:before {
+        content: "\f00d";
+    }
+
+    #click:checked~ul li a {
+        margin-left: 0px;
+    }
+
+    nav ul {
+        position: fixed;
+        top: 100px;
+        left: -100%;
+        @include bgc();
+        @include size(100%, 550px);
+        text-align: $textAlign;
+        display: block;
+        transition: all 0.3s ease;
+        z-index: 1111;
+    }
+
+    #click:checked~ul {
+        left: 0;
+    }
+
+    .header,
+    .nav_bar,
+    .wrapper_margin,
+    .wrapper_footer {
+        @include width(92%);
+    }
+}

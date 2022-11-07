@@ -1,0 +1,96 @@
+@mixin bgc($bgColor :#fff) {
+    background-color: $bgColor;
+}
+
+@mixin position($position :absolute) {
+    position: $position;
+}
+
+@mixin fontSize($fontSize :16px) {
+    font-size: $fontSize;
+}
+
+@mixin color($color :#fff) {
+    color: $color;
+}
+
+@mixin width($width :100%) {
+    width: $width;
+}
+
+@mixin height($height :#fff) {
+    height: $height;
+}
+
+
+@mixin justifyContent($direction: "center") {
+    display: flex;
+
+    @if $direction=="center" {
+        justify-content: center;
+    }
+
+    @if $direction=="space-between" {
+        justify-content: space-between;
+    }
+
+    @if $direction=="flex-start" {
+        justify-content: flex-start;
+    }
+}
+
+
+@mixin alignItems($direction: "center") {
+    display: flex;
+
+    @if $direction=="center" {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    @if $direction=="space-between" {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    @if $direction=="flex-end" {
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+
+    @if $direction=="other" {
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+@mixin size($width, $height: $width) {
+    width: $width;
+    height: $height;
+}
+
+@mixin labelImg ($direction: "nth-child"){
+    display: block;
+    @if($displayFlex == "nth-child"){
+        background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
+        float: right;
+        margin: 0 -50px 0 0;
+    }
+    @if($displayFlex == "nth-last-child"){
+        background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
+        float: left;
+        margin: 0 0 0 -50px;
+    }
+}
+
+@mixin mobile {
+    @media (max-width: $mobile-width) {
+      @content;
+    }
+  }
+  
+  @mixin tablet {
+    @media (max-width: $tablet-width) {
+      @content;
+    }
+  }
