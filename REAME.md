@@ -45,7 +45,7 @@ Day: 11/7/2022
 
 Day: 11/8/2022
 1. Update code HTML, CSS -> Done
-1. Update code Responsive -> 
+1. Update code Responsive -> Done
 
 
 

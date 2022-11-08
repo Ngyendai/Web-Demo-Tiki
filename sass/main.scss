@@ -69,6 +69,9 @@
     @include size(75%, 100%);
     margin: 0 auto;
     @include bgc(#efefef);
+    @include desktop{
+       @include size(92%, 100%);
+    }
   }
   
   .wrapper_banner_two img,

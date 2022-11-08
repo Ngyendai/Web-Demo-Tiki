@@ -72,6 +72,15 @@ footer {
   margin: 0 auto;
   background-color: #efefef;
 }
+@media (max-width: 1500px) {
+  .header,
+  .nav_bar,
+  .wrapper_margin,
+  .wrapper_footer {
+    width: 92%;
+    height: 100%;
+  }
+}
 
 .wrapper_banner_two img,
 .wrapper_banner_three img {
@@ -335,8 +344,8 @@ footer {
 }
 @media (max-width: 768px) {
   #slides_img-bullets label,
-#flashSale_slider-bullets label,
-#brand-slider-bullets label {
+  #flashSale_slider-bullets label,
+  #brand-slider-bullets label {
     width: 8px;
     height: 8px;
     margin: 0 0 0 19.3px;
